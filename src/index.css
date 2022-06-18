@@ -11,3 +11,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.productwrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.logo{
+  font-weight: bold;
+  text-align: center;
+  /* margin-left: 100px; */
+}
+.links{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links a{
+  text-decoration: none;
+  padding-left: 50px;
+  color: black;
+  font-weight: bold;
+  margin: auto;
+}
+
+
